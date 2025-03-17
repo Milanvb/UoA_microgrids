@@ -1,0 +1,12 @@
+\ Model x1_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+\ Signature: 0xcb900c8fe5e2f928
+Minimize
+ 
+Subject To
+ c_e_x177078_: x22374 + x177079 - x177080 - x177081 = 77.61690666666671
+ c_u_x898375_: 1e-06 x177079 + x177080 <= 1e-06
+Bounds
+ -infinity <= x22374 <= 46
+ x177079 free
+End
